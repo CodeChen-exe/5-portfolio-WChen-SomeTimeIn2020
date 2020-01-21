@@ -1,0 +1,153 @@
+<!DOCTYPE = HTML>
+
+<html>
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/w3.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        
+        <img src="img/Untitled.png" style="width:100%">
+        
+        <img src="img/About.gif" class="sectionHeader">
+        
+        <img src="img/WIN_20180523_21_28_37_Pro%20(2).jpg" class="center" style="width: 15%; margin-top: 10px">
+        
+        <p class="centeredText textTop">Hello! As the image on top states, my name is William Chen. I am currently a Sophmore in Andover High School at 15 years old. I like to think of myself as a musician and a programmer with an affinity for pixel art.</p>
+        
+        <p class="centeredText">Within my time in Andover High so far, I've taken part in multiple clubs that involved computers, such as Robotics, the CS team, and a volunteering program known as Computer Fusion.</p>
+        
+        <p class="centeredText">Outside of Andover, I attend NEC Prep on Saturdays. There, I learn more about music and hone my compositional skills.</p>
+        
+        <p class="centeredText textBottom">In the future, I'm considering on working in the video game industry or even creating my own video games.</p>
+
+        <img src="img/Details.gif" class="sectionHeader">
+
+        <img src="img/Topics.png" style="width:100%">
+        <div class="w3-containter w3-light-gray" id="sections">
+          <div class="w3-content" style="max-width:100%; min-width:300px; color:#000">
+
+            <div class="w3-row w3-center w3-card w3-padding">
+              <a href="javascript:void(0)" onclick="openSection(event, 'Music');" id="theHTML">
+                <div class="w3-col s4 tabsection tabMusic">Music</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openSection(event, 'Code');">
+                <div class="w3-col s4 tabsection tabCode">Code</div>
+              </a>
+                <a href="javascript:void(0)" onclick="openSection(event, 'Pixel Art');">
+                <div class="w3-col s4 tabsection tabPixel">Pixel Art</div>
+              </a>
+            </div>
+
+              <div id="Music" class="w3-container sections w3-padding-8 tab">
+
+                  <p class="centeredText">My first, genuine encounter with music was when I started playing the piano at 5 years old. I originally disliked playing the piano for how much I was being haggled into practicing, but I grew up a little and learned to appreciate the piano more. Soon after, at 7 years old, I tried the violin. The same thing happened for the violin as did for the piano. However, at 2014 when I was 10, I met Mark Lakirovich. He helped me learn the building blocks of expressing music. He still remains as my violin teacher today. He was also the person who told my family about NEC.</p> 
+                      
+                  <img src="img/NEC_gold_New_England_Conservatory_gray.jpg" class="center" style="width:300px">
+                  
+                  <p class="centeredText">Since then, I've been regularly attending Prep classes in NEC (New England Conservatory). In NEC, I took multiple classes and years in Music Theory. With that knowledge and a little help from my sister, I was able to pass the AP Music Theory exam at my freshman year of high school. It was also at NEC that I realized my potential for music composition. That was when I started taking compositional seminar classes to learn the skills to write more music.</p>
+
+              </div>
+
+              <div id="Code" class="w3-container sections w3-padding-8 tab">
+                    
+                  <div class="w3-half">
+                    <img src="img/iDTech.png" class="center" style="width:150px">
+                  </div>
+                  <div class="w3-half">
+                    <p class="centeredText">I first tried coding at an iD Tech summer camp. The first language I tried there was Python, and I was able to code a functioning, one-level game reminiscent of Geometry Dash. A year later, I tried Minecraft modding in another iD Tech summer camp. I forget the language used...</p>
+                </div>
+                  
+                  <p class="centeredText">A year or so later, someone opened up a gamemaking class, and I learned to use JavaScript and the slightest bit of HTML 5. I ended up making a very hard platformer game, and it was posted on a website for everyone to play. Within half a year however, that site was taken down for an unknown reason.</p>
+                  
+                  <div class="w3-half">
+                     <p class="centeredText">Now in AHS, I am taking a Java class, and Java has become my most proficient language. Within that class, I was able to code another platformer, fully animated with pixel art. I also attempted to learn some C++ on my own time. I don't remember much, but I was able to make a simple calculator with what I've learned. Additionally, I am taking a Web design class to learn HTML and CSS, of which this website was made for.</p>
+                  </div>
+                  
+                  <div class="w3-half">
+                    <img src="img/ThePlatformer.PNG" class="center" style="width:80%">
+                  </div>
+                      
+              </div>
+
+              <div id="Pixel Art" class="w3-container sections w3-padding-8 tab">
+
+                  <p class="centeredText">My first encounter with pixel art is not clear. I don't know what tipped me to to draw pixel art, but I do know that I've learned to really like pixellated art.</p>
+                  
+                  <div class="slideshow-container">
+
+                      <!-- Full-width images with number and caption text -->
+                      <div class="mySlides">
+                        <img class="center" src="img/PixelatedNametag.png" style="max-height:350px">
+                        <div class="centeredText">One of my first PNG files</div>
+                      </div>
+                      <div class="mySlides">
+                        <img class="center" src="img/RandomBackground.png" style="max-height:300px">
+                        <div class="centeredText">A computer background intended for funny purposes</div>
+                      </div>
+                      <div class="mySlides">
+                        <img class="center" src="img/CSClubBlack.png" style="max-height:350px">
+                        <div class="centeredText">A scrapped drawing of a potential CS team logo</div>
+                      </div>
+                      <div class="mySlides">
+                        <img class="center" src="img/StreetBackground.png" style="max-height:300px">
+                        <div class="centeredText">An unfinished, side project</div>
+                      </div>
+                      <!-- Next and previous buttons -->
+                      <a class="prev arrow" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next arrow" onclick="plusSlides(1)">&#10095;</a> 
+                      
+                      <!-- The dots/circles -->
+                        <div style="text-align:center">
+                          <span class="dot" onclick="currentSlide(1)"></span>
+                          <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+                    </div>
+                  
+                  <script src="js/slideshow.js"></script>
+                  
+
+              </div>
+
+          </div>
+        </div>
+        
+        <img src="img/Contact.gif" class="sectionHeader">
+        
+        <table style="width:100%">
+          <tr>
+            <th class="card">
+              <img src="img/gmail.png" class="center" style="width:50%">
+            
+            <p class="centeredText">chenwilliam8642@gmail.com</p>
+              </th>
+            <th class="card">
+              <img src="img/outlook.png" class="center" style="width:50%">
+            
+            <p class="centeredText">WChen.exe@outlook.com</p>
+              </th>
+            <th class="card">
+              <img src="img/phone.png" class="center" style="width:50%">
+            
+            <p class="centeredText">(978) 856 - 5315</p>
+              </th>
+          </tr>
+        </table>
+        
+        <script src="js/tabbedSections.js"></script>
+        
+    </body>
+    
+</html>
